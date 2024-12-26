@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pubs.sdk",
+    "module": "pubsdk",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pubsdk-1.1.4.aar",
+          "url": "pubsdk-1.1.4.aar",
+          "size": 270615,
+          "sha512": "9701e861b13297b5e8899e13721ed93ad36a496920326cddc2f3d372684df7bbdd0d32e7025d076030c6b23cfdccd65554061dbc17977313087802c173d5294c",
+          "sha256": "1962f4758210c123d58b16a0177f1cc2e03881d55660dee65699113d4acb302a",
+          "sha1": "ea409188293190cef567f26151aed9db0134b4cb",
+          "md5": "2b5bcaec7b2c0f41d6857b1e084007dc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.percentlayout",
+          "module": "percentlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.0-alpha02"
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tradplus",
+          "version": {
+            "requires": "12.5.0.1"
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tp_exchange",
+          "version": {
+            "requires": "40.12.5.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tradplus-crosspromotion",
+          "version": {
+            "requires": "27.12.5.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.5.0"
+          }
+        },
+        {
+          "group": "com.applovin.mediation",
+          "module": "google-adapter",
+          "version": {
+            "requires": "23.5.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "google-adapter",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.applovin.mediation",
+          "module": "google-ad-manager-adapter",
+          "version": {
+            "requires": "23.5.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "google-ad-manager-adapter",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tradplus-googlex",
+          "version": {
+            "requires": "2.12.5.0.1"
+          }
+        },
+        {
+          "group": "com.applovin",
+          "module": "applovin-sdk",
+          "version": {
+            "requires": "13.0.1"
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tradplus-applovin",
+          "version": {
+            "requires": "9.12.5.0.1"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "applovin",
+          "version": {
+            "requires": "13.0.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "applovin",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.bigossp",
+          "module": "bigo-ads",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.applovin.mediation",
+          "module": "bigoads-adapter",
+          "version": {
+            "requires": "5.1.0.0"
+          }
+        },
+        {
+          "group": "com.tradplusad",
+          "module": "tradplus-bigo",
+          "version": {
+            "requires": "57.12.5.0.1"
+          }
+        },
+        {
+          "group": "com.bigossp",
+          "module": "admob-mediation",
+          "version": {
+            "requires": "5.1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "admob-mediation",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pubsdk-1.1.4.aar",
+          "url": "pubsdk-1.1.4.aar",
+          "size": 270615,
+          "sha512": "9701e861b13297b5e8899e13721ed93ad36a496920326cddc2f3d372684df7bbdd0d32e7025d076030c6b23cfdccd65554061dbc17977313087802c173d5294c",
+          "sha256": "1962f4758210c123d58b16a0177f1cc2e03881d55660dee65699113d4acb302a",
+          "sha1": "ea409188293190cef567f26151aed9db0134b4cb",
+          "md5": "2b5bcaec7b2c0f41d6857b1e084007dc"
+        }
+      ]
+    }
+  ]
+}
