@@ -14,7 +14,7 @@ REMOTE_URL=$(git remote get-url origin)
 
 echo "REMOTE_URL = $REMOTE_URL"
 
-echo "WEB_PAGE = https://mipsdk.github.io"
+echo "WEB_PAGE = https://pubsdk.github.io"
 
 BRANCH=$(git branch)
 
