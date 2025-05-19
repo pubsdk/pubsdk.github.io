@@ -35,11 +35,11 @@
         {
           "name": "pubsdk-1.2.2.aar",
           "url": "pubsdk-1.2.2.aar",
-          "size": 248006,
-          "sha512": "ef1c59dfbb7817c9f91ebc7385dae5a9272c8a6479d7ed27d55817d8a22637ed1f5afdbfe6d2c4f1a218200c583de6230844769f176a5e8112c04dfd10bf91aa",
-          "sha256": "37e10e3be7a847f6125d051c344da5f9650a57bca8e1c93d8528845dc0ca8d3d",
-          "sha1": "796b927997669969c9f1ef7cc46c1921f5442577",
-          "md5": "6db59ebca2b820ffb352f57d8c0dfce7"
+          "size": 248122,
+          "sha512": "0eec37557b03a913808531c86380cf4a2f38bb319ef1b4225971e2be3497accf60157436bb4f2a21d43cde5b3f058d8c5794ee309404574a8e6cec6dd34d34c3",
+          "sha256": "0c346c53efd722efcf6b1708d228f74ac7403ab950fba41212ff458e73332baa",
+          "sha1": "1986dca5fc483d1b1e3fab19717717091da83663",
+          "md5": "2e9fee519fd1b815bac20b3088719812"
         }
       ]
     },
@@ -242,11 +242,11 @@
         {
           "name": "pubsdk-1.2.2.aar",
           "url": "pubsdk-1.2.2.aar",
-          "size": 248006,
-          "sha512": "ef1c59dfbb7817c9f91ebc7385dae5a9272c8a6479d7ed27d55817d8a22637ed1f5afdbfe6d2c4f1a218200c583de6230844769f176a5e8112c04dfd10bf91aa",
-          "sha256": "37e10e3be7a847f6125d051c344da5f9650a57bca8e1c93d8528845dc0ca8d3d",
-          "sha1": "796b927997669969c9f1ef7cc46c1921f5442577",
-          "md5": "6db59ebca2b820ffb352f57d8c0dfce7"
+          "size": 248122,
+          "sha512": "0eec37557b03a913808531c86380cf4a2f38bb319ef1b4225971e2be3497accf60157436bb4f2a21d43cde5b3f058d8c5794ee309404574a8e6cec6dd34d34c3",
+          "sha256": "0c346c53efd722efcf6b1708d228f74ac7403ab950fba41212ff458e73332baa",
+          "sha1": "1986dca5fc483d1b1e3fab19717717091da83663",
+          "md5": "2e9fee519fd1b815bac20b3088719812"
         }
       ]
     },
