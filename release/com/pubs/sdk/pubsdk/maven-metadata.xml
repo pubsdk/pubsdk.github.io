@@ -3,8 +3,8 @@
   <groupId>com.pubs.sdk</groupId>
   <artifactId>pubsdk</artifactId>
   <versioning>
-    <latest>1.2.6</latest>
-    <release>1.2.6</release>
+    <latest>1.3.0</latest>
+    <release>1.3.0</release>
     <versions>
       <version>1.1.4</version>
       <version>1.1.5</version>
@@ -18,7 +18,8 @@
       <version>1.2.3</version>
       <version>1.2.4</version>
       <version>1.2.6</version>
+      <version>1.3.0</version>
     </versions>
-    <lastUpdated>20250626105552</lastUpdated>
+    <lastUpdated>20250627035848</lastUpdated>
   </versioning>
 </metadata>
